@@ -1,0 +1,50 @@
+
+.collapse{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+@media screen and (max-width:1000px) {
+   
+    
+    .collapse{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    #category{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;   
+        margin: 5px;   
+        border: 1px solid;  
+    }
+    #category li{
+        margin: 5px;
+    }
+    
+    #country{
+        display: block;
+        width: 100vw;
+    }
+}
+@media screen and (max-width:500px) {
+   
+    .collapse{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    #category{
+        width: 95%;
+        padding: 0px 3px;
+        border: 1px solid red;
+    }
+    #category li{
+        margin: 8px;
+
+    }
+    
+}

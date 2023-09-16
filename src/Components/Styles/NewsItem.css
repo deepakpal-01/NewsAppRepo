@@ -1,0 +1,16 @@
+.card{
+    width: 23vw;
+    border:none;
+    box-shadow: 2px 3px 3px 2px rgb(167, 165, 165);
+    transition: all 0.1s ease;
+    margin: auto;
+}
+.card:hover{
+    transform: scale(1.005);
+}
+@media screen and (max-width:1000px) {
+    .card{
+        width: 80%;
+        margin-bottom: 25px;;
+    }
+}
